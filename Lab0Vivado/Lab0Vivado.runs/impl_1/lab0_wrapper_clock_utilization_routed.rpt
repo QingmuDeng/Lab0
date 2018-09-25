@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.2 (lin64) Build 2258646 Thu Jun 14 20:02:38 MDT 2018
-| Date         : Sun Sep 23 11:28:54 2018
+| Date         : Tue Sep 25 10:59:03 2018
 | Host         : comparchVM running 64-bit Ubuntu 16.04.5 LTS
 | Command      : report_clock_utilization -file lab0_wrapper_clock_utilization_routed.rpt
 | Design       : lab0_wrapper

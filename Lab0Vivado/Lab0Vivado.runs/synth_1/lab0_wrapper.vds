@@ -2,12 +2,12 @@
 # Vivado v2018.2 (64-bit)
 # SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
 # IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
-# Start of session at: Sun Sep 23 11:25:47 2018
-# Process ID: 6172
-# Current directory: /home/comparch/Lab0/Lab0Vivado/Lab0Vivado.runs/synth_1
+# Start of session at: Tue Sep 25 10:54:37 2018
+# Process ID: 29880
+# Current directory: /home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.runs/synth_1
 # Command line: vivado -log lab0_wrapper.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source lab0_wrapper.tcl
-# Log file: /home/comparch/Lab0/Lab0Vivado/Lab0Vivado.runs/synth_1/lab0_wrapper.vds
-# Journal file: /home/comparch/Lab0/Lab0Vivado/Lab0Vivado.runs/synth_1/vivado.jou
+# Log file: /home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.runs/synth_1/lab0_wrapper.vds
+# Journal file: /home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.runs/synth_1/vivado.jou
 #-----------------------------------------------------------
 source lab0_wrapper.tcl -notrace
 Command: synth_design -top lab0_wrapper -part xc7z010clg400-1
@@ -15,29 +15,29 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7z010'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 6178 
-WARNING: [Synth 8-2490] overwriting previous definition of module structuralFullAdder [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/adder_1bit.v:8]
-WARNING: [Synth 8-2490] overwriting previous definition of module structuralFullAdder [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/adder_1bit.v:8]
-WARNING: [Synth 8-2490] overwriting previous definition of module FullAdder4bit [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/adder.v:4]
+INFO: Helper process launched with PID 29887 
+WARNING: [Synth 8-2490] overwriting previous definition of module structuralFullAdder [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/adder_1bit.v:8]
+WARNING: [Synth 8-2490] overwriting previous definition of module structuralFullAdder [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/adder_1bit.v:8]
+WARNING: [Synth 8-2490] overwriting previous definition of module FullAdder4bit [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/adder.v:4]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:06 . Memory (MB): peak = 1257.727 ; gain = 72.273 ; free physical = 245 ; free virtual = 2547
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1257.215 ; gain = 68.273 ; free physical = 106 ; free virtual = 2819
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'lab0_wrapper' [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/lab0_wrapper.v:96]
-INFO: [Synth 8-6157] synthesizing module 'dff' [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/lab0_wrapper.v:38]
+INFO: [Synth 8-6157] synthesizing module 'lab0_wrapper' [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/lab0_wrapper.v:96]
+INFO: [Synth 8-6157] synthesizing module 'dff' [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/lab0_wrapper.v:38]
 	Parameter W bound to: 4 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'dff' (1#1) [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/lab0_wrapper.v:38]
-INFO: [Synth 8-6157] synthesizing module 'jkff1' [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/lab0_wrapper.v:53]
-INFO: [Synth 8-6155] done synthesizing module 'jkff1' (2#1) [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/lab0_wrapper.v:53]
-INFO: [Synth 8-6157] synthesizing module 'mux2' [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/lab0_wrapper.v:74]
+INFO: [Synth 8-6155] done synthesizing module 'dff' (1#1) [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/lab0_wrapper.v:38]
+INFO: [Synth 8-6157] synthesizing module 'jkff1' [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/lab0_wrapper.v:53]
+INFO: [Synth 8-6155] done synthesizing module 'jkff1' (2#1) [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/lab0_wrapper.v:53]
+INFO: [Synth 8-6157] synthesizing module 'mux2' [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/lab0_wrapper.v:74]
 	Parameter W bound to: 4 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'mux2' (3#1) [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/lab0_wrapper.v:74]
-INFO: [Synth 8-6157] synthesizing module 'FullAdder4bit' [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/adder.v:4]
-INFO: [Synth 8-6157] synthesizing module 'structuralFullAdder' [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/adder_1bit.v:8]
-INFO: [Synth 8-6155] done synthesizing module 'structuralFullAdder' (4#1) [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/adder_1bit.v:8]
-INFO: [Synth 8-6155] done synthesizing module 'FullAdder4bit' (5#1) [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/adder.v:4]
-INFO: [Synth 8-6155] done synthesizing module 'lab0_wrapper' (6#1) [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/lab0_wrapper.v:96]
+INFO: [Synth 8-6155] done synthesizing module 'mux2' (3#1) [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/lab0_wrapper.v:74]
+INFO: [Synth 8-6157] synthesizing module 'FullAdder4bit' [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/adder.v:4]
+INFO: [Synth 8-6157] synthesizing module 'structuralFullAdder' [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/adder_1bit.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'structuralFullAdder' (4#1) [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/adder_1bit.v:8]
+INFO: [Synth 8-6155] done synthesizing module 'FullAdder4bit' (5#1) [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/adder.v:4]
+INFO: [Synth 8-6155] done synthesizing module 'lab0_wrapper' (6#1) [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/sources_1/imports/Lab0/lab0_wrapper.v:96]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1285.852 ; gain = 100.398 ; free physical = 265 ; free virtual = 2566
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1285.465 ; gain = 96.523 ; free physical = 174 ; free virtual = 2839
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -50,44 +50,44 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1285.852 ; gain = 100.398 ; free physical = 264 ; free virtual = 2565
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1285.465 ; gain = 96.523 ; free physical = 174 ; free virtual = 2839
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:07 . Memory (MB): peak = 1285.852 ; gain = 100.398 ; free physical = 264 ; free virtual = 2565
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1285.465 ; gain = 96.523 ; free physical = 174 ; free virtual = 2839
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xc7z010clg400-1
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/constrs_1/imports/comparch/ZYBO_Master.xdc]
-Finished Parsing XDC File [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/constrs_1/imports/comparch/ZYBO_Master.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.srcs/constrs_1/imports/comparch/ZYBO_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/lab0_wrapper_propImpl.xdc].
+Parsing XDC File [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/constrs_1/imports/comparch/ZYBO_Master.xdc]
+Finished Parsing XDC File [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/constrs_1/imports/comparch/ZYBO_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.srcs/constrs_1/imports/comparch/ZYBO_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/lab0_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/lab0_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1570.426 ; gain = 0.000 ; free physical = 103 ; free virtual = 2320
+Constraint Validation Runtime : Time (s): cpu = 00:00:00.01 ; elapsed = 00:00:00.01 . Memory (MB): peak = 1594.574 ; gain = 0.000 ; free physical = 104 ; free virtual = 2608
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:47 . Memory (MB): peak = 1570.426 ; gain = 384.973 ; free physical = 170 ; free virtual = 2387
+Finished Constraint Validation : Time (s): cpu = 00:00:26 ; elapsed = 00:00:52 . Memory (MB): peak = 1594.574 ; gain = 405.633 ; free physical = 174 ; free virtual = 2679
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7z010clg400-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:47 . Memory (MB): peak = 1570.426 ; gain = 384.973 ; free physical = 170 ; free virtual = 2387
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:26 ; elapsed = 00:00:52 . Memory (MB): peak = 1594.574 ; gain = 405.633 ; free physical = 174 ; free virtual = 2679
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:47 . Memory (MB): peak = 1570.426 ; gain = 384.973 ; free physical = 173 ; free virtual = 2389
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:52 . Memory (MB): peak = 1594.574 ; gain = 405.633 ; free physical = 176 ; free virtual = 2681
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:48 . Memory (MB): peak = 1570.426 ; gain = 384.973 ; free physical = 164 ; free virtual = 2380
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:26 ; elapsed = 00:00:53 . Memory (MB): peak = 1594.574 ; gain = 405.633 ; free physical = 167 ; free virtual = 2672
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -150,7 +150,7 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:48 . Memory (MB): peak = 1570.426 ; gain = 384.973 ; free physical = 150 ; free virtual = 2370
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:53 . Memory (MB): peak = 1594.574 ; gain = 405.633 ; free physical = 153 ; free virtual = 2662
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -162,13 +162,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:01:02 . Memory (MB): peak = 1570.426 ; gain = 384.973 ; free physical = 101 ; free virtual = 2245
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:43 ; elapsed = 00:01:15 . Memory (MB): peak = 1594.574 ; gain = 405.633 ; free physical = 116 ; free virtual = 2543
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:01:02 . Memory (MB): peak = 1570.426 ; gain = 384.973 ; free physical = 101 ; free virtual = 2245
+Finished Timing Optimization : Time (s): cpu = 00:00:43 ; elapsed = 00:01:15 . Memory (MB): peak = 1594.574 ; gain = 405.633 ; free physical = 116 ; free virtual = 2543
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -180,7 +180,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:01:02 . Memory (MB): peak = 1578.434 ; gain = 392.980 ; free physical = 118 ; free virtual = 2245
+Finished Technology Mapping : Time (s): cpu = 00:00:44 ; elapsed = 00:01:15 . Memory (MB): peak = 1602.582 ; gain = 413.641 ; free physical = 116 ; free virtual = 2543
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -204,7 +204,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:01:03 . Memory (MB): peak = 1578.434 ; gain = 392.980 ; free physical = 118 ; free virtual = 2245
+Finished IO Insertion : Time (s): cpu = 00:00:45 ; elapsed = 00:01:16 . Memory (MB): peak = 1602.582 ; gain = 413.641 ; free physical = 116 ; free virtual = 2543
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -217,7 +217,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:01:03 . Memory (MB): peak = 1578.434 ; gain = 392.980 ; free physical = 118 ; free virtual = 2245
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:45 ; elapsed = 00:01:16 . Memory (MB): peak = 1602.582 ; gain = 413.641 ; free physical = 116 ; free virtual = 2543
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -229,25 +229,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:01:03 . Memory (MB): peak = 1578.434 ; gain = 392.980 ; free physical = 118 ; free virtual = 2245
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:45 ; elapsed = 00:01:16 . Memory (MB): peak = 1602.582 ; gain = 413.641 ; free physical = 116 ; free virtual = 2543
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:01:03 . Memory (MB): peak = 1578.434 ; gain = 392.980 ; free physical = 118 ; free virtual = 2245
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:45 ; elapsed = 00:01:16 . Memory (MB): peak = 1602.582 ; gain = 413.641 ; free physical = 116 ; free virtual = 2543
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:01:03 . Memory (MB): peak = 1578.434 ; gain = 392.980 ; free physical = 118 ; free virtual = 2245
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:45 ; elapsed = 00:01:16 . Memory (MB): peak = 1602.582 ; gain = 413.641 ; free physical = 116 ; free virtual = 2543
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:01:03 . Memory (MB): peak = 1578.434 ; gain = 392.980 ; free physical = 118 ; free virtual = 2245
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:45 ; elapsed = 00:01:16 . Memory (MB): peak = 1602.582 ; gain = 413.641 ; free physical = 116 ; free virtual = 2543
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -283,11 +283,11 @@ Report Instance Areas:
 |4     |  src_sel |jkff1  |     2|
 +------+----------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:01:03 . Memory (MB): peak = 1578.434 ; gain = 392.980 ; free physical = 118 ; free virtual = 2245
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:45 ; elapsed = 00:01:16 . Memory (MB): peak = 1602.582 ; gain = 413.641 ; free physical = 116 ; free virtual = 2543
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:26 . Memory (MB): peak = 1578.434 ; gain = 108.406 ; free physical = 175 ; free virtual = 2302
-Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:01:03 . Memory (MB): peak = 1578.441 ; gain = 392.980 ; free physical = 187 ; free virtual = 2314
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:31 ; elapsed = 00:00:38 . Memory (MB): peak = 1602.582 ; gain = 104.531 ; free physical = 174 ; free virtual = 2600
+Synthesis Optimization Complete : Time (s): cpu = 00:00:45 ; elapsed = 00:01:17 . Memory (MB): peak = 1602.590 ; gain = 413.641 ; free physical = 184 ; free virtual = 2611
 INFO: [Project 1-571] Translating synthesized netlist
 INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
@@ -299,9 +299,9 @@ No Unisim elements were transformed.
 INFO: [Common 17-83] Releasing license: Synthesis
 24 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:20 ; elapsed = 00:01:05 . Memory (MB): peak = 1580.434 ; gain = 395.082 ; free physical = 167 ; free virtual = 2294
+synth_design: Time (s): cpu = 00:00:48 ; elapsed = 00:01:19 . Memory (MB): peak = 1604.582 ; gain = 415.742 ; free physical = 168 ; free virtual = 2596
 WARNING: [Constraints 18-5210] No constraint will be written out.
-INFO: [Common 17-1381] The checkpoint '/home/comparch/Lab0/Lab0Vivado/Lab0Vivado.runs/synth_1/lab0_wrapper.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint '/home/comparch/Lab/Lab0/Lab0Vivado/Lab0Vivado.runs/synth_1/lab0_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file lab0_wrapper_utilization_synth.rpt -pb lab0_wrapper_utilization_synth.pb
-report_utilization: Time (s): cpu = 00:00:00.06 ; elapsed = 00:00:00.11 . Memory (MB): peak = 1580.434 ; gain = 0.000 ; free physical = 168 ; free virtual = 2295
-INFO: [Common 17-206] Exiting Vivado at Sun Sep 23 11:27:04 2018...
+report_utilization: Time (s): cpu = 00:00:00.15 ; elapsed = 00:00:00.19 . Memory (MB): peak = 1628.594 ; gain = 0.000 ; free physical = 168 ; free virtual = 2597
+INFO: [Common 17-206] Exiting Vivado at Tue Sep 25 10:56:05 2018...
