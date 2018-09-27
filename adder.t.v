@@ -25,8 +25,12 @@ module testFullAdder();
         $display(" %b   %b  |  %b    %b    %b     |   4", a, b, carryout, sum, overflow);
         a = 4'b0111; b = 4'b1111; #1000
         $display(" %b   %b  |  %b    %b    %b     |   6", a, b, carryout, sum, overflow);
+        a = 4'b0100; b = 4'b1110; #1000
+        $display(" %b   %b  |  %b    %b    %b     |   2", a, b, carryout, sum, overflow);
         a = 4'b1000; b = 4'b0111; #1000
         $display(" %b   %b  |  %b    %b    %b     |   -1", a, b, carryout, sum, overflow);
+        a = 4'b0101; b = 4'b1001; #1000
+        $display(" %b   %b  |  %b    %b    %b     |   -2", a, b, carryout, sum, overflow);
         a = 4'b1110; b = 4'b1101; #1000
         $display(" %b   %b  |  %b    %b    %b     |   -5", a, b, carryout, sum, overflow);
         a = 4'b0101; b = 4'b1011; #1000
